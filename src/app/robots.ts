@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://hanutoorist.in/sitemap.xml',
+    sitemap: 'https://hanutourist.in/sitemap.xml',
   };
 }

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Bengaluru Airport Taxi & Transfer Services | Hanu Tourist",
   description: "Book reliable 24/7 airport pickups & drops to Kempegowda International Airport (KIA) with zero surge prices and guaranteed on-time schedules.",
   alternates: {
-    canonical: "https://hanutoorist.in/airport",
+    canonical: "https://hanutourist.in/airport",
   },
 };
 

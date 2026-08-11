@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Standard Taxi Fares & Tariff Rates | Hanu Tourist",
   description: "Check transparent taxi rates per km in Bengaluru. View flat outstation fees, local package rentals (8hr/80km), and airport transfer rates for Swift Dzire, Innova, and Tempo Traveller.",
   alternates: {
-    canonical: "https://hanutoorist.in/tariff",
+    canonical: "https://hanutourist.in/tariff",
   },
 };
 

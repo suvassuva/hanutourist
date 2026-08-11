@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Our Services | Hanu Tourist Bengaluru",
   description: "Explore our professional travel offerings: Airport Pickups/Drops, local city rentals, outstation multi-day trips, corporate employee travel, and decorated wedding car hires in Bengaluru.",
   alternates: {
-    canonical: "https://hanutoorist.in/services",
+    canonical: "https://hanutourist.in/services",
   },
 };
 

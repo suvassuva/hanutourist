@@ -1,9 +1,11 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, MessageSquare, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, MessageSquare, Send, Share2 } from 'lucide-react';
 import { COMPANY } from '@/lib/constants';
 import type { ContactFormData } from '@/types';
+import GoogleReviewButton from '@/components/GoogleReviewButton';
+import SocialLinks from '@/components/SocialLinks';
 
 export default function Contact() {
   const [formData, setFormData] = useState<ContactFormData>({
@@ -236,6 +238,23 @@ export default function Contact() {
                 </div>
               </li>
             </ul>
+          </div>
+
+          {/* Card 2: Google Review Call-To-Action */}
+          <GoogleReviewButton variant="card" />
+
+          {/* Card 3: Social Media Channels */}
+          <div className="glass-panel border border-zinc-900 rounded-3xl p-5 sm:p-6 flex flex-col gap-3">
+            <h3 className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+              <Share2 className="h-4.5 w-4.5 text-amber-400" />
+              <span>Connect On Social Media</span>
+            </h3>
+            <p className="text-xs text-zinc-400 leading-relaxed">
+              Follow Hanu Tourist on social media for travel tips, new fleet updates, and special outstation discounts.
+            </p>
+            <div className="pt-2">
+              <SocialLinks size="md" />
+            </div>
           </div>
         </div>
 

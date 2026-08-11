@@ -9,6 +9,7 @@ import {
 import BookingForm from '@/components/BookingForm';
 import LucideIcon from '@/components/LucideIcon';
 import Marquee from '@/components/Marquee';
+import GoogleReviewButton from '@/components/GoogleReviewButton';
 import { 
   SERVICES, FLEET, TESTIMONIALS, FAQS, STATS, BOOKING_STEPS, COMPANY, POPULAR_ROUTES 
 } from '@/lib/constants';
@@ -48,9 +49,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 items-center">
           {/* Left Column: Heading & Value Proposition */}
           <div className="lg:col-span-6 flex flex-col gap-4 sm:gap-6 text-center lg:text-left">
-            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 sm:px-3 sm:py-1 bg-amber-400/10 border border-amber-400/20 rounded-full self-center lg:self-start">
-              <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse"></span>
-              <span className="text-[10px] sm:text-xs font-semibold tracking-wide text-amber-400 uppercase">24/7 Cab Service in Bengaluru</span>
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2.5">
+              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 sm:px-3 sm:py-1 bg-amber-400/10 border border-amber-400/20 rounded-full">
+                <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse"></span>
+                <span className="text-[10px] sm:text-xs font-semibold tracking-wide text-amber-400 uppercase">24/7 Cab Service in Bengaluru</span>
+              </div>
+              <GoogleReviewButton variant="compact" />
             </div>
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
               Premium Taxi & <br />
@@ -373,6 +377,11 @@ export default function Home() {
               </div>
             ))}
           </Marquee>
+
+          {/* Google Business Review CTA Card */}
+          <div className="mt-4">
+            <GoogleReviewButton variant="card" />
+          </div>
         </div>
       </section>
 

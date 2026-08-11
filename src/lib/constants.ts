@@ -19,12 +19,18 @@ export const COMPANY = {
     full: 'Rajeshwari Nilay, 578/1, 1st Main, 4th Cross, K.R. Puram, Bengaluru – 560036',
   },
   whatsapp: '919880601090',
+  googleReviewUrl: 'https://www.google.com/search?q=Hanu+Tourist+K.R.+Puram+Bengaluru+reviews',
+  googleRating: {
+    score: 4.9,
+    reviewsCount: '150+',
+  },
   workingHours: '24/7 Available',
   social: {
-    facebook: '#',
-    instagram: '#',
-    twitter: '#',
-    youtube: '#',
+    facebook: 'https://facebook.com',
+    instagram: 'https://www.instagram.com/hanutouristblr?igsh=MTlkOHNoNmE4dXUwOQ==',
+    youtube: 'https://youtube.com',
+    twitter: 'https://twitter.com',
+    whatsapp: 'https://wa.me/919880601090',
   },
   mapEmbed:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5!2d77.7!3d13.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAwJzAwLjAiTiA3N8KwNDInMDAuMCJF!5e0!3m2!1sen!2sin!4v1',

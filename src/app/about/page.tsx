@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "About Us | Hanu Tourist Bengaluru",
   description: "Learn more about Hanu Tourist, a premier taxi and travel agency based in K.R. Puram, Bengaluru. Over a decade of providing reliable, safe, and premium cab services.",
   alternates: {
-    canonical: "https://hanutoorist.in/about",
+    canonical: "https://hanutourist.in/about",
   },
 };
 

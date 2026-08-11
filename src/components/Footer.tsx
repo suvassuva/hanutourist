@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { Phone, Mail, MapPin, Clock, Car } from 'lucide-react';
 import { COMPANY, NAV_LINKS, SERVICES } from '@/lib/constants';
+import GoogleReviewButton from '@/components/GoogleReviewButton';
+import SocialLinks from '@/components/SocialLinks';
 
 export default function Footer() {
   return (
@@ -28,7 +30,7 @@ export default function Footer() {
             <p className="text-sm leading-relaxed text-zinc-500">
               {COMPANY.tagline}
             </p>
-            <div className="flex items-center gap-3 mt-2">
+            <div className="flex items-center gap-3">
               <div className="p-2 rounded-lg bg-zinc-900 text-amber-400">
                 <Clock className="h-4 w-4" />
               </div>
@@ -36,6 +38,17 @@ export default function Footer() {
                 <span className="text-xs text-zinc-600 block">Available</span>
                 <span className="text-sm font-semibold text-zinc-300">{COMPANY.workingHours}</span>
               </div>
+            </div>
+
+            {/* Social Media Links */}
+            <div className="flex flex-col gap-2 mt-1">
+              <span className="text-xs font-semibold text-zinc-500 uppercase tracking-wider">Connect With Us</span>
+              <SocialLinks size="sm" />
+            </div>
+            
+            {/* Google Review Badge */}
+            <div className="mt-1">
+              <GoogleReviewButton variant="footer" />
             </div>
           </div>
 

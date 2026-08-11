@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Outstation Cabs & Intercity Travel | Hanu Tourist",
   description: "Book clean, comfortable intercity outstation cabs from Bengaluru to Mysuru, Coorg, Ooty, Chikmagalur, Tirupati, Goa, and more. Choose flat one-way drops or round-trips.",
   alternates: {
-    canonical: "https://hanutoorist.in/outstation",
+    canonical: "https://hanutourist.in/outstation",
   },
 };
 
