@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, MessageSquare, Send, Share2 } from 'lucide-react';
 import { COMPANY } from '@/lib/constants';
 import type { ContactFormData } from '@/types';
-import GoogleReviewButton from '@/components/GoogleReviewButton';
 import SocialLinks from '@/components/SocialLinks';
 
 export default function Contact() {
@@ -37,7 +36,7 @@ export default function Contact() {
 
     // Format WhatsApp message
     const messageLines = [
-      `*✉️ Hanu Tourist — Website Enquiry*`,
+      `*✉️ Travels — Website Enquiry*`,
       `-----------------------------------------`,
       `*Name:* ${formData.name}`,
       `*Phone:* ${formData.phone}`,
@@ -65,7 +64,7 @@ export default function Contact() {
         <div className="text-center flex flex-col gap-2 sm:gap-4 max-w-3xl mx-auto">
           <span className="text-xs font-bold text-amber-400 uppercase tracking-widest">Get In Touch</span>
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-            Contact <span className="text-gradient-gold">Hanu Tourist</span>
+            Contact <span className="text-gradient-gold">Travels</span>
           </h1>
           <p className="text-zinc-400 text-xs sm:text-sm md:text-base leading-relaxed">
             Have questions about fares, routes, or corporate bookings? Reach out to our 24/7 dispatcher team today.
@@ -116,7 +115,7 @@ export default function Contact() {
                   required
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="e.g. +91 98806 01090"
+                  placeholder="e.g. +91 00000 00000"
                   className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 bg-zinc-950/60 border border-zinc-800 rounded-xl text-white placeholder-zinc-500 focus:outline-none focus:border-amber-400 focus:ring-1 focus:ring-amber-400 transition-colors text-xs sm:text-sm"
                 />
               </div>
@@ -240,8 +239,7 @@ export default function Contact() {
             </ul>
           </div>
 
-          {/* Card 2: Google Review Call-To-Action */}
-          <GoogleReviewButton variant="card" />
+
 
           {/* Card 3: Social Media Channels */}
           <div className="glass-panel border border-zinc-900 rounded-3xl p-5 sm:p-6 flex flex-col gap-3">
@@ -250,7 +248,7 @@ export default function Contact() {
               <span>Connect On Social Media</span>
             </h3>
             <p className="text-xs text-zinc-400 leading-relaxed">
-              Follow Hanu Tourist on social media for travel tips, new fleet updates, and special outstation discounts.
+              Follow Travels on social media for travel tips, new fleet updates, and special outstation discounts.
             </p>
             <div className="pt-2">
               <SocialLinks size="md" />
@@ -273,7 +271,7 @@ export default function Contact() {
             allowFullScreen={false}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Hanu Tourist Office Location Map"
+            title="Travels Office Location Map"
           ></iframe>
         </div>
       </section>

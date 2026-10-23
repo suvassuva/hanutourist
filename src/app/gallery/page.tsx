@@ -40,7 +40,7 @@ export default function Gallery() {
         <div className="text-center flex flex-col gap-2 sm:gap-4 max-w-3xl mx-auto">
           <span className="text-xs font-bold text-amber-400 uppercase tracking-widest">Our Fleet & Journeys</span>
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-            Hanu Tourist <span className="text-gradient-gold">Gallery</span>
+            Travels <span className="text-gradient-gold">Gallery</span>
           </h1>
           <p className="text-zinc-400 text-xs sm:text-sm md:text-base leading-relaxed">
             Peek inside our collection of premium vehicles, passenger logs, outstation vacation tours, and corporate transit moments.

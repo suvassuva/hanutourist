@@ -6,9 +6,9 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import MobileBottomNav from "@/components/MobileBottomNav";
 
 export const metadata: Metadata = {
-  title: "Hanu Tourist | Premium Taxi & Travel Partner in Bengaluru",
-  description: "Book comfortable outstation trips, reliable 24/7 airport pickups & drops, and local taxi rentals in Bengaluru with Hanu Tourist. Premium fleet of Swift Dzire, Innova, Tempo Traveller, and Fortuner.",
-  keywords: "taxi service bengaluru, airport drop bangalore, outstation cab bangalore, rent innova bangalore, hanu tourist, taxi booking kr puram",
+  title: "Travels | Premium Taxi & Travel Partner in Bengaluru",
+  description: "Book comfortable outstation trips, reliable 24/7 airport pickups & drops, and local taxi rentals in Bengaluru with Travels. Premium fleet of Swift Dzire, Innova, Tempo Traveller, and Fortuner.",
+  keywords: "taxi service bengaluru, airport drop bangalore, outstation cab bangalore, rent innova bangalore, travels, taxi booking kr puram",
 };
 
 export default function RootLayout({

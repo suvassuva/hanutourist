@@ -6,11 +6,8 @@ import { SERVICES } from '@/lib/constants';
 import LucideIcon from '@/components/LucideIcon';
 
 export const metadata: Metadata = {
-  title: "Our Services | Hanu Tourist Bengaluru",
+  title: "Our Services | Travels Bengaluru",
   description: "Explore our professional travel offerings: Airport Pickups/Drops, local city rentals, outstation multi-day trips, corporate employee travel, and decorated wedding car hires in Bengaluru.",
-  alternates: {
-    canonical: "https://hanutourist.in/services",
-  },
 };
 
 
@@ -26,7 +23,7 @@ export default function Services() {
             Our Professional <span className="text-gradient-gold">Travel Services</span>
           </h1>
           <p className="text-zinc-400 text-xs sm:text-sm md:text-base leading-relaxed">
-            Hanu Tourist provides flat-rate airport pick-drops, custom-crafted outstation holidays, corporate vehicle programs, and hourly local commutes across Bengaluru.
+            Travels provides flat-rate airport pick-drops, custom-crafted outstation holidays, corporate vehicle programs, and hourly local commutes across Bengaluru.
           </p>
         </div>
       </section>

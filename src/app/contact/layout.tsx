@@ -1,11 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Contact Us | Hanu Tourist taxi booking Bengaluru",
-  description: "Get in touch with Hanu Tourist in K.R. Puram, Bengaluru. Call +91 98806 01090 or send a WhatsApp message to book your cab instantly 24/7.",
-  alternates: {
-    canonical: "https://hanutourist.in/contact",
-  },
+  title: "Contact Us | Travels taxi booking Bengaluru",
+  description: "Get in touch with Travels in Bengaluru. Call +91 00000 00000 or send a WhatsApp message to book your cab instantly 24/7.",
 };
 
 export default function ContactLayout({

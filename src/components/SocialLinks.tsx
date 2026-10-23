@@ -84,7 +84,7 @@ export default function SocialLinks({ size = 'md', showLabels = false, className
           href={item.url}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`Follow Hanu Tourist on ${item.name}`}
+          aria-label={`Follow Travels on ${item.name}`}
           className={`flex items-center justify-center rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 transition-all duration-300 transform hover:-translate-y-1 ${containerSizeClasses[size]} ${item.hoverClass} group`}
         >
           {item.icon}

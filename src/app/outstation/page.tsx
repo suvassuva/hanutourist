@@ -5,11 +5,8 @@ import Image from 'next/image';
 import { ArrowRight, Compass, MapPin, CalendarRange, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Outstation Cabs & Intercity Travel | Hanu Tourist",
+  title: "Outstation Cabs & Intercity Travel | Travels",
   description: "Book clean, comfortable intercity outstation cabs from Bengaluru to Mysuru, Coorg, Ooty, Chikmagalur, Tirupati, Goa, and more. Choose flat one-way drops or round-trips.",
-  alternates: {
-    canonical: "https://hanutourist.in/outstation",
-  },
 };
 
 import { POPULAR_ROUTES, COMPANY } from '@/lib/constants';

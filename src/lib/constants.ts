@@ -1,25 +1,25 @@
 // ============================================
-// Hanu Tourist — Constants & Data
+// Travels — Constants & Data
 // ============================================
 
 import type { NavLink, Service, Car, Route, Testimonial, TravelPackage, FAQ, Stat, Step, TariffRow } from '@/types';
 
 // ── Company Info ────────────────────────────
 export const COMPANY = {
-  name: 'Hanu Tourist',
+  name: 'Travels',
   tagline: 'Your Trusted Taxi & Travel Partner in Bengaluru',
-  phone: ['+91 98806 01090', '+91 98456 47799'],
-  email: 'hanutourist@gmail.com',
+  phone: ['+91 00000 00000', '+91 12345 67890'],
+  email: 'contact@travels.com',
   address: {
-    line1: 'Rajeshwari Nilay, 578/1, 1st Main',
-    line2: '4th Cross, K.R. Puram',
+    line1: '123 Travel Avenue, Suite 100',
+    line2: 'MG Road, Indiranagar',
     city: 'Bengaluru',
     state: 'Karnataka',
-    pincode: '560036',
-    full: 'Rajeshwari Nilay, 578/1, 1st Main, 4th Cross, K.R. Puram, Bengaluru – 560036',
+    pincode: '560001',
+    full: '123 Travel Avenue, Suite 100, MG Road, Bengaluru – 560001',
   },
-  whatsapp: '919880601090',
-  googleReviewUrl: 'https://www.google.com/search?q=Hanu+Tourist+K.R.+Puram+Bengaluru+reviews',
+  whatsapp: '910000000000',
+  googleReviewUrl: '',
   googleRating: {
     score: 4.9,
     reviewsCount: '150+',
@@ -27,10 +27,10 @@ export const COMPANY = {
   workingHours: '24/7 Available',
   social: {
     facebook: 'https://facebook.com',
-    instagram: 'https://www.instagram.com/hanutouristblr?igsh=MTlkOHNoNmE4dXUwOQ==',
+    instagram: 'https://instagram.com/travels',
     youtube: 'https://youtube.com',
     twitter: 'https://twitter.com',
-    whatsapp: 'https://wa.me/919880601090',
+    whatsapp: 'https://wa.me/910000000000',
   },
   mapEmbed:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5!2d77.7!3d13.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAwJzAwLjAiTiA3N8KwNDInMDAuMCJF!5e0!3m2!1sen!2sin!4v1',
@@ -247,7 +247,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Rajesh Kumar',
     avatar: '/images/avatars/avatar1.jpg',
     rating: 5,
-    review: 'Exceptional service! The driver was punctual, professional, and the car was spotlessly clean. Our family trip to Mysuru was made memorable by Hanu Tourist.',
+    review: 'Exceptional service! The driver was punctual, professional, and the car was spotlessly clean. Our family trip to Mysuru was made memorable by Travels.',
     location: 'Bengaluru',
   },
   {
@@ -255,7 +255,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Priya Sharma',
     avatar: '/images/avatars/avatar2.jpg',
     rating: 5,
-    review: 'I use Hanu Tourist for all my airport transfers. They have never been late, and their pricing is very transparent. Highly recommended!',
+    review: 'I use Travels for all my airport transfers. They have never been late, and their pricing is very transparent. Highly recommended!',
     location: 'Whitefield',
   },
   {
@@ -271,7 +271,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Sneha Reddy',
     avatar: '/images/avatars/avatar4.jpg',
     rating: 5,
-    review: 'Our wedding car was absolutely stunning! The team went above and beyond to make our special day even more perfect. Thank you Hanu Tourist!',
+    review: 'Our wedding car was absolutely stunning! The team went above and beyond to make our special day even more perfect. Thank you Travels!',
     location: 'Jayanagar',
   },
   {
@@ -279,7 +279,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Vikram Singh',
     avatar: '/images/avatars/avatar5.jpg',
     rating: 4,
-    review: 'Great corporate cab service. Our company has been using Hanu Tourist for the past year and the service quality has been consistently excellent.',
+    review: 'Great corporate cab service. Our company has been using Travels for the past year and the service quality has been consistently excellent.',
     location: 'Koramangala',
   },
 ];
@@ -363,8 +363,8 @@ export const BOOKING_STEPS: Step[] = [
 // ── FAQs ────────────────────────────────────
 export const FAQS: FAQ[] = [
   {
-    question: 'How do I book a taxi with Hanu Tourist?',
-    answer: 'You can book a taxi by calling us at +91 98806 01090, sending a WhatsApp message, or filling out the booking form on our website. We will confirm your booking within minutes.',
+    question: 'How do I book a taxi with Travels?',
+    answer: 'You can book a taxi by calling us at +91 00000 00000, sending a WhatsApp message, or filling out the booking form on our website. We will confirm your booking within minutes.',
   },
   {
     question: 'What types of cars are available?',
@@ -379,7 +379,7 @@ export const FAQS: FAQ[] = [
     answer: 'Outstation charges start from ₹12/km for a sedan. The fare includes driver charges, fuel, and tolls. Visit our Tariff page for detailed pricing or call us for a custom quote.',
   },
   {
-    question: 'Is it safe to travel with Hanu Tourist?',
+    question: 'Is it safe to travel with Travels?',
     answer: 'Absolutely! All our drivers are verified, experienced professionals. Our vehicles are GPS-enabled, regularly serviced, and sanitized. Your safety is our top priority.',
   },
   {

@@ -9,7 +9,6 @@ import {
 import BookingForm from '@/components/BookingForm';
 import LucideIcon from '@/components/LucideIcon';
 import Marquee from '@/components/Marquee';
-import GoogleReviewButton from '@/components/GoogleReviewButton';
 import { 
   SERVICES, FLEET, TESTIMONIALS, FAQS, STATS, BOOKING_STEPS, COMPANY, POPULAR_ROUTES 
 } from '@/lib/constants';
@@ -54,7 +53,6 @@ export default function Home() {
                 <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse"></span>
                 <span className="text-[10px] sm:text-xs font-semibold tracking-wide text-amber-400 uppercase">24/7 Cab Service in Bengaluru</span>
               </div>
-              <GoogleReviewButton variant="compact" />
             </div>
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
               Premium Taxi & <br />
@@ -203,7 +201,7 @@ export default function Home() {
       {/* 4.5 Service Reels (Promotional Videos) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col gap-6 sm:gap-10">
         <div className="text-center flex flex-col gap-2 sm:gap-3">
-          <span className="text-xs font-bold text-amber-400 uppercase tracking-widest font-semibold">Hanu Tourist in Action</span>
+          <span className="text-xs font-bold text-amber-400 uppercase tracking-widest font-semibold">Travels in Action</span>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-white">Experience Our Rides</h2>
           <p className="text-zinc-400 max-w-2xl mx-auto text-xs sm:text-sm">
             Take a quick look at our daily operations, premium cars, and on-time transit services.
@@ -378,10 +376,7 @@ export default function Home() {
             ))}
           </Marquee>
 
-          {/* Google Business Review CTA Card */}
-          <div className="mt-4">
-            <GoogleReviewButton variant="card" />
-          </div>
+
         </div>
       </section>
 

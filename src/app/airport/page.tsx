@@ -5,11 +5,8 @@ import { PlaneTakeoff, PlaneLanding, ShieldAlert, Check, Clock, ShieldCheck } fr
 import { TARIFF, COMPANY } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: "Bengaluru Airport Taxi & Transfer Services | Hanu Tourist",
+  title: "Bengaluru Airport Taxi & Transfer Services | Travels",
   description: "Book reliable 24/7 airport pickups & drops to Kempegowda International Airport (KIA) with zero surge prices and guaranteed on-time schedules.",
-  alternates: {
-    canonical: "https://hanutourist.in/airport",
-  },
 };
 
 
@@ -132,7 +129,7 @@ export default function Airport() {
           <div className="flex flex-col gap-3 sm:gap-4">
             <h3 className="text-xl sm:text-2xl font-bold text-white">Transit Reliability Commitments</h3>
             <p className="text-zinc-500 text-xs sm:text-sm leading-relaxed">
-              We understand that airport transits leave no room for delay. At Hanu Tourist, we guarantee:
+              We understand that airport transits leave no room for delay. At Travels, we guarantee:
             </p>
             <ul className="flex flex-col gap-2.5 sm:gap-3 text-xs sm:text-sm text-zinc-400">
               <li className="flex items-center gap-3">

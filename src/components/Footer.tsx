@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import { Phone, Mail, MapPin, Clock, Car } from 'lucide-react';
 import { COMPANY, NAV_LINKS, SERVICES } from '@/lib/constants';
-import GoogleReviewButton from '@/components/GoogleReviewButton';
 import SocialLinks from '@/components/SocialLinks';
 
 export default function Footer() {
@@ -19,11 +18,8 @@ export default function Footer() {
                 <Car className="h-6 w-6" />
               </div>
               <div>
-                <span className="text-xl font-bold tracking-tight text-white block leading-none">
-                  HANU
-                </span>
-                <span className="text-xs font-semibold uppercase tracking-wider text-amber-400 block mt-0.5">
-                  TOURIST
+                <span className="text-xl font-extrabold tracking-wider text-white block leading-none">
+                  TRAVELS
                 </span>
               </div>
             </Link>
@@ -46,10 +42,7 @@ export default function Footer() {
               <SocialLinks size="sm" />
             </div>
             
-            {/* Google Review Badge */}
-            <div className="mt-1">
-              <GoogleReviewButton variant="footer" />
-            </div>
+
           </div>
 
           {/* Column 2: Quick Links */}
@@ -129,7 +122,7 @@ export default function Footer() {
       <div className="bg-zinc-950 border-t border-zinc-900/60 py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
           <p className="text-xs text-zinc-600">
-            &copy; {new Date().getFullYear()} Hanu Tourist. All rights reserved.
+            &copy; {new Date().getFullYear()} Travels. All rights reserved.
           </p>
           <p className="text-xs text-zinc-700">
             Designed for premium comfort and reliable travels in Bengaluru.

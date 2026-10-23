@@ -4,11 +4,8 @@ import Link from 'next/link';
 import { Landmark, ArrowRight, ShieldCheck, FileText, Info } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Standard Taxi Fares & Tariff Rates | Hanu Tourist",
+  title: "Standard Taxi Fares & Tariff Rates | Travels",
   description: "Check transparent taxi rates per km in Bengaluru. View flat outstation fees, local package rentals (8hr/80km), and airport transfer rates for Swift Dzire, Innova, and Tempo Traveller.",
-  alternates: {
-    canonical: "https://hanutourist.in/tariff",
-  },
 };
 
 import { TARIFF } from '@/lib/constants';
@@ -25,7 +22,7 @@ export default function Tariff() {
             Our Standard <span className="text-gradient-gold">Tariff Rates</span>
           </h1>
           <p className="text-zinc-400 text-xs sm:text-sm md:text-base leading-relaxed">
-            Hanu Tourist maintains complete transparency. No surge rates, zero hidden extras. Review our standard pricing structures for different travel scopes.
+            Travels maintains complete transparency. No surge rates, zero hidden extras. Review our standard pricing structures for different travel scopes.
           </p>
         </div>
       </section>

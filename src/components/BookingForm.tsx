@@ -48,7 +48,7 @@ export default function BookingForm() {
 
     // Format WhatsApp message
     const messageLines = [
-      `*🚖 Hanu Tourist — Cab Booking Enquiry*`,
+      `*🚖 Travels — Cab Booking Enquiry*`,
       `-----------------------------------------`,
       `*Trip Type:* ${formData.tripType.toUpperCase()}`,
       `*Pickup Location:* ${formData.pickup}`,

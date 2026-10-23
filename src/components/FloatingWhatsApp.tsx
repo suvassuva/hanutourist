@@ -5,7 +5,7 @@ import { MessageSquare } from 'lucide-react';
 import { COMPANY } from '@/lib/constants';
 
 export default function FloatingWhatsApp() {
-  const message = encodeURIComponent("Hello Hanu Tourist, I would like to book a taxi/enquire about your travel packages.");
+  const message = encodeURIComponent("Hello Travels, I would like to book a taxi/enquire about your travel packages.");
   const whatsappUrl = `https://wa.me/${COMPANY.whatsapp}?text=${message}`;
 
   return (

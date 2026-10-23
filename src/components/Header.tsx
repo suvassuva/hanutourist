@@ -39,11 +39,8 @@ export default function Header() {
               <Car className="h-5 w-5 sm:h-6 w-6" />
             </div>
             <div>
-              <span className="text-lg sm:text-xl font-bold tracking-tight text-white block leading-none">
-                HANU
-              </span>
-              <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-wider text-amber-400 block mt-0.5">
-                TOURIST
+              <span className="text-lg sm:text-xl font-extrabold tracking-wider text-white block leading-none">
+                TRAVELS
               </span>
             </div>
           </Link>

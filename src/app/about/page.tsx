@@ -4,11 +4,8 @@ import { Shield, Clock, Award, Users, HeartHandshake } from 'lucide-react';
 import { STATS, COMPANY } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: "About Us | Hanu Tourist Bengaluru",
-  description: "Learn more about Hanu Tourist, a premier taxi and travel agency based in K.R. Puram, Bengaluru. Over a decade of providing reliable, safe, and premium cab services.",
-  alternates: {
-    canonical: "https://hanutourist.in/about",
-  },
+  title: "About Us | Travels Bengaluru",
+  description: "Learn more about Travels, a premier taxi and travel agency based in K.R. Puram, Bengaluru. Over a decade of providing reliable, safe, and premium cab services.",
 };
 
 
@@ -21,10 +18,10 @@ export default function About() {
         <div className="text-center flex flex-col gap-2 sm:gap-4 max-w-3xl mx-auto">
           <span className="text-xs font-bold text-amber-400 uppercase tracking-widest">Our Story</span>
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-            About <span className="text-gradient-gold">Hanu Tourist</span>
+            About <span className="text-gradient-gold">Travels</span>
           </h1>
           <p className="text-zinc-400 text-xs sm:text-sm md:text-base leading-relaxed">
-            Hanu Tourist is a premier taxi and travel agency based in K.R. Puram, Bengaluru. For over a decade, we have been delivering reliable, safe, and premium cab services to our clients, ensuring that every destination is reached comfortably and on schedule.
+            Travels is a premier taxi and travel agency based in K.R. Puram, Bengaluru. For over a decade, we have been delivering reliable, safe, and premium cab services to our clients, ensuring that every destination is reached comfortably and on schedule.
           </p>
         </div>
       </section>
@@ -79,7 +76,7 @@ export default function About() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col gap-6 sm:gap-12">
         <div className="text-center flex flex-col gap-2 sm:gap-3">
           <span className="text-xs font-bold text-amber-400 uppercase tracking-widest">Our Guidelines</span>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-white">Why Choose Hanu Tourist</h2>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-white">Why Choose Travels</h2>
           <p className="text-zinc-400 text-xs sm:text-sm max-w-lg mx-auto">
             We hold ourselves to strict operating principles to maintain a superior level of ride satisfaction.
           </p>
