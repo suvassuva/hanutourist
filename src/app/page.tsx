@@ -4,13 +4,14 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { 
-  ChevronDown, ChevronUp, Star, Phone, Shield, ThumbsUp, Compass, ArrowRight, CheckCircle2 
+  ChevronDown, ChevronUp, Star, Phone, Shield, ThumbsUp, Compass, ArrowRight, CheckCircle2, Sparkles 
 } from 'lucide-react';
 import BookingForm from '@/components/BookingForm';
 import LucideIcon from '@/components/LucideIcon';
 import Marquee from '@/components/Marquee';
+import GumroadProductCard from '@/components/GumroadProductCard';
 import { 
-  SERVICES, FLEET, TESTIMONIALS, FAQS, STATS, BOOKING_STEPS, COMPANY, POPULAR_ROUTES 
+  SERVICES, FLEET, TESTIMONIALS, FAQS, STATS, BOOKING_STEPS, COMPANY, POPULAR_ROUTES, DIGITAL_PRODUCTS 
 } from '@/lib/constants';
 
 export default function Home() {
@@ -113,6 +114,38 @@ export default function Home() {
                 {stat.label}
               </span>
             </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 2.5 Gumroad Digital Travel Products */}
+      <section id="digital-guides" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col gap-8 sm:gap-10 scroll-mt-24">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-zinc-900 pb-6">
+          <div className="flex flex-col gap-2 max-w-2xl text-center md:text-left">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-400/10 border border-amber-400/20 rounded-full w-fit mx-auto md:mx-0">
+              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+              <span className="text-[11px] font-bold text-amber-400 uppercase tracking-wider">Gumroad Digital Store</span>
+            </div>
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+              Curated Travel Guides & Itineraries
+            </h2>
+            <p className="text-zinc-400 text-xs sm:text-sm">
+              Skip hundreds of hours of research. Download hand-crafted road trip itineraries, secret viewpoint maps, and travel planning spreadsheets with instant Gumroad checkout.
+            </p>
+          </div>
+
+          <Link
+            href="/preview"
+            className="px-4 py-2.5 rounded-xl border border-zinc-800 hover:border-amber-400 text-zinc-300 hover:text-amber-400 text-xs sm:text-sm font-semibold transition-all duration-300 self-center md:self-end flex items-center gap-2 shrink-0 bg-zinc-900/60"
+          >
+            <span>Explore Interactive Preview</span>
+            <ArrowRight className="w-4 h-4 text-amber-400" />
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-5xl mx-auto w-full">
+          {DIGITAL_PRODUCTS.map((product) => (
+            <GumroadProductCard key={product.id} product={product} />
           ))}
         </div>
       </section>

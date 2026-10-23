@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   keywords: "taxi service bengaluru, airport drop bangalore, outstation cab bangalore, rent innova bangalore, travels, taxi booking kr puram",
 };
 
+import Script from "next/script";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,6 +28,7 @@ export default function RootLayout({
         <Footer />
         <FloatingWhatsApp />
         <MobileBottomNav />
+        <Script src="https://gumroad.com/js/gumroad.js" strategy="lazyOnload" />
       </body>
     </html>
   );

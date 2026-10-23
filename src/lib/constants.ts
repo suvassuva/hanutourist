@@ -39,13 +39,14 @@ export const COMPANY = {
 // ── Navigation ──────────────────────────────
 export const NAV_LINKS: NavLink[] = [
   { label: 'Home', href: '/' },
-  { label: 'About', href: '/about' },
+  { label: 'Digital Guides', href: '/preview' },
   { label: 'Services', href: '/services' },
   { label: 'Fleet', href: '/fleet' },
   { label: 'Outstation', href: '/outstation' },
   { label: 'Airport Transfer', href: '/airport' },
   { label: 'Tariff', href: '/tariff' },
   { label: 'Gallery', href: '/gallery' },
+  { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ];
 
@@ -405,3 +406,49 @@ export const TARIFF: TariffRow[] = [
   { carType: 'Tempo Traveller', localRate: '₹5,500 / 8hrs-80km', outstationRate: '₹25 / km', airportRate: '₹2,999', passengers: 12 },
   { carType: 'Toyota Fortuner', localRate: '₹6,000 / 8hrs-80km', outstationRate: '₹30 / km', airportRate: '₹3,499', passengers: 6 },
 ];
+
+// ── Gumroad Digital Travel Products ─────────
+export const DIGITAL_PRODUCTS = [
+  {
+    id: 'world-travel-planner',
+    title: 'Ultimate World Travel Planner & Global Itinerary Guide',
+    subtitle: 'The complete blueprint for exploring 50+ countries. Turn-by-turn routes, secret viewpoint maps, budget spreadsheets, and Notion workspace.',
+    price: 9,
+    originalPrice: 29,
+    currency: '$',
+    badge: 'Bestseller',
+    format: 'PDF + Notion Hub + Maps',
+    gumroadUrl: 'https://gumroad.com/l/hsdum',
+    previewUrl: '/preview',
+    image: '/images/gumroad/cover.jpg',
+    thumbnail: '/images/gumroad/thumbnail.jpg',
+    features: [
+      '50+ Curated Country Itineraries (Europe, Asia, Americas)',
+      '300+ Secret Viewpoints & Google Maps Pinpack',
+      'Automated Travel Budget & Expense Calculator',
+      'Universal Travel Packing & Gear Checklists',
+      '1-Click Notion Workspace Template & Lifetime Updates',
+    ],
+  },
+  {
+    id: 'coorg-wayanad-itinerary',
+    title: 'South India Road Trip & Hidden Gems Guide',
+    subtitle: 'Scenic mountain passes, coffee estate homestays, and pristine waterfalls across Karnataka & Kerala.',
+    price: 5,
+    originalPrice: 15,
+    currency: '$',
+    badge: 'Popular',
+    format: 'Interactive PDF + Offline Maps',
+    gumroadUrl: 'https://gumroad.com/l/hsdum',
+    previewUrl: '/preview',
+    image: 'https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=800&q=80',
+    thumbnail: 'https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=800&q=80',
+    features: [
+      '3-Day, 5-Day & 7-Day Turn-by-Turn Road Itineraries',
+      '50+ Verified Google Map Drop Pins',
+      'Kodava Cuisine & Local Food Trail Recommendations',
+      'Direct Chauffeur Route Notes',
+    ],
+  },
+];
+
